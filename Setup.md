@@ -1,4 +1,4 @@
-Programs/libraries and anything else that our group will use will be posted here.
+<h1>Programs/libraries and anything else that our group will use will be posted here.</h1>
 
 Visual Studio
 >[Visual Studio](https://visualstudio.microsoft.com/downloads/)
@@ -17,5 +17,11 @@ Work Flow
 GitHub Markdown Cheatsheet
 >[Cheatsheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
+<h2>The following are not required but it makes life easier once its all set up (the hard part)<br>
+to access the repo with simple commands</h2>
 
+SSH into GitHub using git
+>[git download for windows](https://git-scm.com/download/win)<br>
+>[SSH Tutorial](https://www.pluralsight.com/guides/using-git-and-github-on-windows)<br>
+>[git clone and other usual commands](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository)<br>
 
