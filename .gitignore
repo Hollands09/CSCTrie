@@ -1,0 +1,5 @@
+#Ignore all .md files when
+*.md
+
+#Ignore all .pdf files
+*.pdf
