@@ -10,6 +10,7 @@ Boost 1.74.0 (current release)
 
 Boost.ui Repo
 >[Boost.ui](https://kosenko.github.io/boost.ui/)
+We probably wont need this right now and we might use qt instead but we will cross that bridge later
 
 Work Flow
 >[Google Sheets Work Flow](https://docs.google.com/spreadsheets/d/1jOpv2u_0qNNMjoOW8hh15k2QYNliekos7bbT5Q6yuP0/edit#gid=0)
