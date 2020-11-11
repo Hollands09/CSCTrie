@@ -4,7 +4,7 @@ Visual Studio
 >[Visual Studio](https://visualstudio.microsoft.com/downloads/)
 
 Boost 1.74.0 (current release)
->[Boost Download](https://www.boost.org/users/download/)/br
+>[Boost Download](https://www.boost.org/users/download/)<br>
 >[Boost Documentation](https://www.boost.org/doc/libs/1_74_0/)
 
 Boost.ui Repo
