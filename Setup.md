@@ -1,7 +1,7 @@
 <h1 align="center">Programs/libraries and anything else that our group will use will be posted here.</h1>
 
-<h3 align="center">Git</center></h3>
-<p align="center"> This is important to use GitHub </p>
+<h3>Git</center></h3>
+<p> This is important to use GitHub more effectively</p>
 
 >[git and github crash course](https://www.youtube.com/watch?v=SWYqp7iY_Tc)
 >[git download for windows](https://git-scm.com/download/win)<br>
