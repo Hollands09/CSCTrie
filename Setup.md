@@ -1,4 +1,4 @@
-<h3 align="center">Programs/libraries and anything else that our group will use will be posted here.</h3>
+<h4 align="center">Programs/libraries and anything else that our group will use will be posted here.</h4>
 
 ##### git
 <p> This is important to use GitHub more effectively</p>
