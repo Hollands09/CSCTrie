@@ -1,4 +1,12 @@
-<h1>Programs/libraries and anything else that our group will use will be posted here.</h1>
+<h1 align="center">Programs/libraries and anything else that our group will use will be posted here.</h1>
+
+<h3 align="center">Git</center></h3>
+<p align="center"> This is important to use GitHub </p>
+
+>[git and github crash course](https://www.youtube.com/watch?v=SWYqp7iY_Tc)
+>[git download for windows](https://git-scm.com/download/win)<br>
+>[SSH Tutorial](https://www.pluralsight.com/guides/using-git-and-github-on-windows)<br>
+>[git clone and other usual commands](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository)<br>
 
 Visual Studio
 >[Visual Studio](https://visualstudio.microsoft.com/downloads/)
@@ -17,13 +25,4 @@ Work Flow
 
 GitHub Markdown Cheatsheet
 >[Cheatsheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
-
-
-<h3 align="center">Git</center></h3>
-<p align="center"> This is important to use GitHub </p>
-
->[git and github crash course}(https://www.youtube.com/watch?v=SWYqp7iY_Tc)
->[git download for windows](https://git-scm.com/download/win)<br>
->[SSH Tutorial](https://www.pluralsight.com/guides/using-git-and-github-on-windows)<br>
->[git clone and other usual commands](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository)<br>
 
