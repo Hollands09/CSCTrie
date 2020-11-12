@@ -1,4 +1,4 @@
-<p align="center"> ## Getting Started & HELPME </p>
+### Getting Started & HELPME
 
 Programs/libraries and anything else that our group will use will be posted here.
 
