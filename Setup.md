@@ -16,7 +16,7 @@ Programs/libraries and anything else that our group will use will be posted here
 ##### Boost 1.74.0 (current release)
 >[Boost Download](https://www.boost.org/users/download/)<br>
 >[Boost Documentation](https://www.boost.org/doc/libs/1_74_0/)<br>
->>[How to Include Boost in a Project](https://www.boost.org/doc/libs/1_65_0/more/getting_started/windows.html)
+>[How to Include Boost in a Project](https://www.boost.org/doc/libs/1_65_0/more/getting_started/windows.html)
 
 ##### Boost.ui Repo
 >[Boost.ui](https://kosenko.github.io/boost.ui/)
