@@ -21,7 +21,10 @@ GitHub Markdown Cheatsheet
 <h2>The following are not required but it makes life easier once its all set up (the hard part)<br>
 to access the repo with simple commands</h2>
 
-SSH into GitHub using git
+<h3 align="center">Git</center>
+<p align="center"> This is important to use GitHub </p>
+
+>[git and github crash course}(https://www.youtube.com/watch?v=SWYqp7iY_Tc)
 >[git download for windows](https://git-scm.com/download/win)<br>
 >[SSH Tutorial](https://www.pluralsight.com/guides/using-git-and-github-on-windows)<br>
 >[git clone and other usual commands](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository)<br>
