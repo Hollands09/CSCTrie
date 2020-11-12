@@ -18,10 +18,8 @@ Work Flow
 GitHub Markdown Cheatsheet
 >[Cheatsheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
-<h2>The following are not required but it makes life easier once its all set up (the hard part)<br>
-to access the repo with simple commands</h2>
 
-<h3 align="center">Git</center>
+<h3 align="center">Git</center></h3>
 <p align="center"> This is important to use GitHub </p>
 
 >[git and github crash course}(https://www.youtube.com/watch?v=SWYqp7iY_Tc)
