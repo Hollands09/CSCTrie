@@ -1,4 +1,6 @@
-<h4 align="center">Programs/libraries and anything else that our group will use will be posted here.</h4>
+<p align="center"> ## Getting Started & HELPME </p>
+
+Programs/libraries and anything else that our group will use will be posted here.
 
 ##### git
 <p> This is important to use GitHub more effectively</p>
