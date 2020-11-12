@@ -3,7 +3,7 @@
 <h3>Git</center></h3>
 <p> This is important to use GitHub more effectively</p>
 
->[git and github crash course](https://www.youtube.com/watch?v=SWYqp7iY_Tc)
+>[git and github crash course](https://www.youtube.com/watch?v=SWYqp7iY_Tc)<br>
 >[git download for windows](https://git-scm.com/download/win)<br>
 >[SSH Tutorial](https://www.pluralsight.com/guides/using-git-and-github-on-windows)<br>
 >[git clone and other usual commands](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository)<br>
