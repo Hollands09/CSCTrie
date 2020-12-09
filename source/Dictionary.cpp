@@ -1,17 +1,24 @@
-#include "Dictionary.h"
+#ifndef _DICTIONARY_
+#define _DICTIONARY_
 
+#include <string>
+#include <fstream>
+#include <sstream>
+#include <vector>
+#include <iostream>
+#include <algorithm>
 
-Dictionary::Dictionary() {
-	// Pull word list from file directory
-	std::ifstream wordList("../Trie/english.txt");
-	// Capitalize word list for consistency
-	while (std::getline(wordList, line)) {
+class Dictionary
+{
 
-		std::transform(line.begin(), line.end(), line.begin(), ::toupper);
+public: 
 
-		dictionary.push_back(line);
-	}
-	// Establish the size of the word bank
-	dictionarySize = dictionary.size();
+	Dictionary();
 
-}
+	size_t dictionarySize;
+	std::string line;
+	std::vector<std::string> dictionary;
+
+};
+
+#endif // !_DICTIONARY_
