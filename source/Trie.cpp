@@ -13,7 +13,7 @@ Trie* Trie::createNode(){
 }
 
 void Trie::insert(Trie*& root, std::string* key, std::ofstream &dotfile) {
-
+// If the root node does not have any children, create a child node 
 	if (root == nullptr) {
 
 		root = createNode();
@@ -23,7 +23,7 @@ void Trie::insert(Trie*& root, std::string* key, std::ofstream &dotfile) {
 	Trie* curr = root;
 	
 	std::string temp = *key;
-
+// For each letter in the currently indexed word, create a node until end of word
 for (int i = 0; i < temp.size(); i++){
 
 	if (curr->map.find(temp[i]) == curr->map.end()) {
@@ -36,8 +36,8 @@ for (int i = 0; i < temp.size(); i++){
 	
 	}
 
-	curr->count += 1;
-	curr->endString = true;
+	curr->count += 1; // count the occurrences of words
+	curr->endString = true; //mark the end of word
 
 }
 
@@ -54,7 +54,7 @@ int Trie::search(Trie*& root, std::string* key) {
 	Trie* curr = root;
 
 	std::string temp = *key;
-
+// Compare the letters of the desired search word against the children of the current trie node for matches
 	for (size_t i = 0; i < temp.size(); i++) {
 
 		curr = curr->map[temp[i]];
@@ -67,7 +67,7 @@ int Trie::search(Trie*& root, std::string* key) {
 		}
 
 	}
-
+// If successful, output affirmation and amount of occurrences
 		std::cout << *key << " exists " << curr->count;
 		curr->count == 1 ? std::cout << " time in the Trie\n\n" : std::cout << " times in the Trie\n\n";
 
