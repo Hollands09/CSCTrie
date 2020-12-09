@@ -100,6 +100,8 @@ int Trie::search(Trie*& root, std::string* key) {
 
 void Trie::dotPrintHelper(Trie*& node,std::string *key, std::ofstream& dotfile) {
 
+	dotfile << "a -- b\n" << "c -- d\n" << "}";
+
 
 }
 

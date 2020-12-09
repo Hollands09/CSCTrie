@@ -4,6 +4,10 @@ Timer::Timer() {
 	auto t1 = high_resolution_clock::now();
 	auto t2 = high_resolution_clock::now();
 }
+
+//Destructor
+Timer::~Timer(){}
+
 void Timer::setTime(int clockNum) {
 
 	if (clockNum == 1) {
@@ -14,9 +18,8 @@ void Timer::setTime(int clockNum) {
 	else if (clockNum == 2) {
 
 		t2 = high_resolution_clock::now();
-		auto timeElapsed = duration_cast<microseconds>(t2 - t1); // Calculate difference between the end time and start time to determine total run time
-		
-		// Output in microseconds since the times are very small numbers
+		auto timeElapsed = duration_cast<microseconds>(t2 - t1);
+
 		std::cout << "duration of routine is " << timeElapsed.count() << " microseconds";
 
 	}

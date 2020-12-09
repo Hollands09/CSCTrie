@@ -1,24 +1,17 @@
-#ifndef _DICTIONARY_
-#define _DICTIONARY_
+#include "Dictionary.h"
 
-#include <string>
-#include <fstream>
-#include <sstream>
-#include <vector>
-#include <iostream>
-#include <algorithm>
 
-class Dictionary
-{
+Dictionary::Dictionary() {
 
-public: 
+	std::ifstream wordList("../Trie/english.txt");
 
-	Dictionary();
+	while (std::getline(wordList, line)) {
 
-	size_t dictionarySize;
-	std::string line;
-	std::vector<std::string> dictionary;
+		std::transform(line.begin(), line.end(), line.begin(), ::toupper);
 
-};
+		dictionary.push_back(line);
+	}
 
-#endif // !_DICTIONARY_
+	dictionarySize = dictionary.size();
+
+}
