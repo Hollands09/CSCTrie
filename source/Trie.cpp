@@ -1,147 +1,91 @@
 #include "Trie.h"
 
 
-Trie::Trie(){
-
-	count = 1;
-	depth = 0;
-	endString = false;
-
-	for (int i = 0; i < 26; i++) {
-
-		this->child[i] = nullptr;
-
-	}
-
-}
+Trie::Trie(){}
 
 Trie* Trie::createNode(){
 
 	Trie* node = new Trie;
-
+	
 	node->endString = false;
-
-	for (int i = 0; i < 26; i++) {
-
-		node->child[i] = nullptr;
-
-	}
 
 	return node;
 }
 
-void Trie::insert(Trie* root, std::string key) {
+void Trie::insert(Trie*& root, std::string* key, std::ofstream &dotfile) {
 
-	Trie* curr = root;
+	if (root == nullptr) {
 
-	for (size_t i = 0; i < key.length(); i++) {
-
-		int index = key[i] - 'A';
-
-		if (!curr->child[index]) {
-
-			curr->child[index] = createNode();
-			
-		}
-
-		curr = curr->child[index];
-
-		if (curr->endString && i == key.length() - 1) {
-
-			curr->count += 1;
-
-		}
+		root = createNode();
 
 	}
 
+	Trie* curr = root;
+	
+	std::string temp = *key;
+
+for (int i = 0; i < temp.size(); i++){
+
+	if (curr->map.find(temp[i]) == curr->map.end()) {
+
+		curr->map[temp[i]] = createNode();
+
+		}
+
+	curr = curr->map[temp[i]];
+	
+	}
+
+	curr->count += 1;
 	curr->endString = true;
 
 }
 
-int Trie::search(Trie* root, std::string key) {
+int Trie::search(Trie*& root, std::string* key) {
+	
+	if (root == nullptr) {
+
+		std::cout << key << " does not exist in Trie\n\n";
+
+		return 0;
+
+	}
 
 	Trie* curr = root;
 
-	for (size_t i = 0; i < key.length(); i++) {
+	std::string temp = *key;
 
-		int index = key[i] - 'A';
+	for (size_t i = 0; i < temp.size(); i++) {
 
-		if (!curr->child) {
+		curr = curr->map[temp[i]];
 
-			std::cout << key << " does not exist in Trie\n";
+		if (curr == nullptr) {
+
+			std::cout << *key << " does not in exist in trie\n\n";
 
 			return 0;
-
 		}
 
-		curr = curr->child[index];
-
 	}
 
-	if (curr != nullptr && curr->endString) {
+		std::cout << *key << " exists " << curr->count;
+		curr->count == 1 ? std::cout << " time in the Trie\n\n" : std::cout << " times in the Trie\n\n";
 
-		std::cout << key << " exists " << curr->count;
-		curr->count == 1 ? std::cout << " time in the Trie\n" : std::cout << " times in the Trie\n";
-
-		return curr->count;
-
-	}
+		return 1;
 
 }
 
-bool Trie::empty(Trie* root) {
-
-	for (int i = 0; i < 26; i++) {
-
-		if (root->child[i]) {
-
-			return false;
-
-		}
-		else
-
-			return true;
-
-	}
+void Trie::triePrintNull(std::string key, int nullcount, std::ofstream& dotfile) {
 
 }
 
-Trie* Trie::deleteNode(Trie* root, int depth, std::string key) {
+void Trie::dotPrintHelper(Trie*& node,std::string *key, std::ofstream& dotfile) {
 
-	if (!root) {
-
-		return nullptr;
-	}
-
-	if (depth == key.size()) {
-
-		if (root->endString) {
-
-			root->endString = false;
-
-		}
-
-		if (Trie::empty(root)) {
-
-			delete root;
-			root = nullptr;
-		}
-
-		return root;
-
-	}
-
-	int index = key[depth] - 'A';
-	root->child[index] = Trie::deleteNode(root->child[index], depth + 1, key);
-
-	if (Trie::empty(root) && root->endString == false) {
-
-		delete root;
-		root = nullptr;
-
-	}
-
-	return root;
 
 }
 
+void Trie::triePrintDot(Trie*& node, std::ofstream& dotfile) {
+
+
+
+}

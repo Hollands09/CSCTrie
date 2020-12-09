@@ -1,29 +1,141 @@
 #include <iostream>
 #include "Trie.h"
 #include <string>
+#include "Dictionary.h"
+#include "Timer.h"
+#include "Rando.h"
+
+void test1(Dictionary& dictionary, Timer timer, std::ofstream& dotfile);
+void test2(Dictionary& dictionary, Timer timer, std::ofstream& dotfile);
+void test3(Dictionary& dictionary, Timer timer, std::ofstream& dotfile);
 
 int main() {
 
-	std::string inputs[6] = { "JAMIE", "JAMIE", "JAIME","RYAN", "BARBS","BARB" };
+	Dictionary english;
+	Timer Timer;
+
+	std::ofstream dotfile;
+	dotfile.open("dotfile.txt", std::ofstream::out);
+		if (!dotfile) {
+			std::cout << "file not created" << std::endl;
+			return 0;
+		}
+		dotfile << "digraph {\n";
+
+
+	test1(english, Timer, dotfile);
+	test2(english, Timer, dotfile);
+	test3(english, Timer, dotfile);
+
+	system("pause");
+}
+
+void test1(Dictionary& dictionary, Timer timer, std::ofstream &dotfile) {
+
+	std::cout << "////****TEST ONE, 1 word in a dictionary****////\n\n";
+
+	std::string word = "AARDVARK";
+	Trie* trie = new Trie;
+
+
+	timer.setTime(1);
+
+	for (size_t i = 1; i < dictionary.dictionary.size(); i++) {
+		trie->insert(trie, &dictionary.dictionary[i], dotfile);
+	}
+
+	timer.setTime(2);
+
+	std::cout << " For " << dictionary.dictionary.size() << " inputs to the trie\n\n";
 	
-	int n = sizeof(inputs) / sizeof(inputs[0]);
+	timer.setTime(1);
+	trie->search(trie, &word);
+	timer.setTime(2);
 
-	std::cout << "The contents of the trie contains the words ";
+	std::cout << " to search for 1 word in the trie\n\n";
 
-	for (int i = 0; i < 6; i++) {
+	system("pause");
+}
 
-		std::cout << inputs[i] << " ";
+void test2(Dictionary& dictionary, Timer timer, std::ofstream& dotfile) {
+
+	std::cout << "////****TEST TWO, random words in a dictionary****////\n\n";
+
+	Trie* trie = new Trie;
+	unsigned int wordSeed = rando(dictionary.dictionary.size());
+
+	timer.setTime(1);
+
+	for (size_t i = 1; i < dictionary.dictionary.size(); i++) {
+		trie->insert(trie, &dictionary.dictionary[i], dotfile);
+	}
+
+	timer.setTime(2);
+
+	std::cout << " For " << dictionary.dictionary.size() << " inputs to the trie\n\n";
+
+	timer.setTime(1);
+
+	for (int i = 0; i < wordSeed; i++) {
+		
+		std::string word = dictionary.dictionary[i];
+
+		trie->search(trie, &word);
 
 	}
 
-	std::cout << "\n";
+	timer.setTime(2);
 
-	Trie* trie = new Trie();
-	for (int i = 0; i < n; i++){
-		trie->insert(trie, inputs[i]);
+	std::cout << " to search for " << wordSeed << " words in the trie\n\n";
+
+	system("pause");
+}
+
+void test3(Dictionary& dictionary, Timer timer, std::ofstream& dotfile) {
+
+	std::cout << "////****TEST THREE, many dictionaries in 1 tree****////\n\n";
+	
+	Trie* trie = new Trie;
+
+	timer.setTime(1);
+
+	for (size_t i = 0; i < 1000000; i++) {
+
+		unsigned int wordSeed = rando(dictionary.dictionary.size());
+
+		trie->insert(trie, &dictionary.dictionary[wordSeed], dotfile);
 	}
-	trie->search(trie, "JAMIE");
+
+	timer.setTime(2);
+
+	std::cout << " For 1000000 inputs to the trie\n\n";
+
+	system("pause");
+
+	for (int i = 0; i < 3; i++) {
+	unsigned int birdSeed = rando(dictionary.dictionary.size());
+	std::string word = dictionary.dictionary[birdSeed];
+	timer.setTime(1);
+	int output = trie->search(trie, &word);
+	timer.setTime(2);
+	std::cout << " to search for " << output << " word in the trie of a 1 million inputs\n\n";
+	
+	}
 
 
 	system("pause");
+
+	std::cout << "now lets strap in\n\n";
+	timer.setTime(1);
+
+	for (size_t i = 0; i < 3000000; i++) {
+
+		unsigned int wordSeed = rando(dictionary.dictionary.size());
+
+		trie->insert(trie, &dictionary.dictionary[wordSeed], dotfile);
+	}
+
+	timer.setTime(2);
+
+	std::cout << " For 3000000 inputs to the trie\n\n";
 }

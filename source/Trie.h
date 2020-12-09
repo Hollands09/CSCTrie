@@ -1,8 +1,11 @@
 #ifndef _TRIE_
 #define _TRIE_
-#include <string>
-#include <iostream>
 
+#include <string>
+#include <unordered_map>
+#include "Timer.h"
+#include <errno.h>
+#include <fstream>
 
 class Trie
 {
@@ -12,17 +15,24 @@ public:
 
 	Trie* createNode();
 
-	void insert(Trie* root, std::string key);
+	void insert(Trie*& root, std::string* key, std::ofstream &dotfile);
 
-	int search(Trie* root, std::string key);
+	int search(Trie*& root, std::string* key);
 
-	bool empty(Trie* root);
+	void triePrintNull(std::string key, int nullcount, std::ofstream& dotfile);
 
-	Trie* deleteNode(Trie* root, int depth, std::string key);
+	void dotPrintHelper(Trie*& node, std::string *key, std::ofstream& dotfile);
 
-	Trie* child[26];
-	bool endString;
-	int depth, count;
+	void triePrintDot(Trie*& node, std::ofstream& dotfile);
+
+	bool endString = false;
+	
+	int depth = 0;
+
+	int count = 0;
+
+	std::unordered_map<char, Trie*> map;
+
 };
 
 #endif _TRIE_
