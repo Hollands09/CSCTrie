@@ -24,17 +24,9 @@ summation of insertion time against 42000+ inputs.  As a disclaimer the dotfiles
 
 
 >These dotfiles are outdated but just an example of what they did look like in their rudimentary form. see [DOT_IMAGES.md](https://github.com/Hollands09/CSCTrie/blob/main/DOT_IMAGES.md)
-<br>
-<br>
 >10 input Trie
 <img src="img/10input.png">
-
-<br>
-<br>
 >25 input Trie
 <img src="img/25input.png">
-
-<br>
-<br>
 >50 input Trie
 <img src="img/50input.png">
