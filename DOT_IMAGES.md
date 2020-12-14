@@ -6,10 +6,6 @@ The read.me shows some earlier versions of the dot images.  He the dotfile will 
  
 </p>
 
-<p align="center"></p>
-
-<br>
-<br>
 ```Graphviz
  strict digraph G {
 rootNode [label="root"]
