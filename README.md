@@ -11,12 +11,12 @@ to rewrite it.  As with the earlier implementation it uses some of the same head
 10, 25, 50 input tries to see what the graphs would look like.</p>
 <br>
 <br>
-![](img/10input.png)
+<img src="img/10input.png">
 
 <br>
 <br>
-![](img/25input.png)
+<img src="img/25input.png">
 
 <br>
 <br>
-![](img/50input.png)
+<img src="img/50input.png">
