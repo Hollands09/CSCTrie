@@ -33,13 +33,13 @@ summation of insertion time against 42000+ inputs.  As a disclaimer the dotfiles
 >10 input Trie <br/>
 
 
->><img src="img/10input.png"><br/>
+<img src="img/10input.png"><br/>
 
 
 >25 input Trie<br/>
 
 
->><img src="img/25input.png"><br/>
+<img src="img/25input.png"><br/>
 
 
 >50 input Trie
