@@ -8,7 +8,7 @@
 <p align="center">So this is probably unorthadox but I rewrote the program to get it working as intended.  I wrote my second implementation (using std::unordered_map) and attemped to be high speed low drag. 
 This proved to be a massive failure and I shouldn't and tried it in the first place.  I had an issue with the unordered_map iterators when returning the pairs.
 that was the initial plan to make the dotfile.  Search for the key "X,Y,Z" and return the corresping value in the pair (i.e. the pointer value) use those with the node and label syntax and boom, dotfile.  It didn't work, the project was a disaster and I took the time 
-to rewrite it(althought I doubt anyone will see this besides me).  As with the earlier implementation it uses some of the same headers and classes and the approach to the trie is similar but the fundamental portion of how child nodes are stored is simplifed.  I output some tries,
+to rewrite it (although I doubt anyone will see this besides me).  As with the earlier implementation it uses some of the same headers and classes and the approach to the trie is similar but the fundamental portion of how child nodes are stored is simplifed.  I output some tries,
 10, 25, 50 input tries to see what the graphs would look like.</p>
 <br>
 <br>
