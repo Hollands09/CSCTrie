@@ -1,0 +1,329 @@
+ strict digraph G {
+rootNode [label="root"]
+//LIFE-SIZED
+node00B83048 [label=<L>]
+node00B82298 [label=<I>]
+node00B84040 [label=<F>]
+node00B83DF8 [label=<E>]
+node00B824E0 [label=<->]
+node00B82728 [label=<S>]
+node00B83290 [label=<I>]
+node00B834D8 [label=<Z>]
+node00B83720 [label=<E>]
+node00B84718 [label=<D<BR /> <FONT POINT-SIZE="8">LIFE-SIZED</FONT>> ,color=<red>]
+rootNode -> node00B83048 -> node00B82298 -> node00B84040 -> node00B83DF8 -> node00B824E0 -> node00B82728 -> node00B83290 -> node00B834D8 -> node00B83720 -> node00B84718
+
+//SELF-EMPLOYMENT
+node00B82050 [label=<S>]
+node00B82970 [label=<E>]
+node00B844D0 [label=<L>]
+node00B84BA8 [label=<F>]
+node00B812A0 [label=<->]
+node00B82BB8 [label=<E>]
+node00B81730 [label=<M>]
+node00B84960 [label=<P>]
+node00B81978 [label=<L>]
+node00B81BC0 [label=<O>]
+node00B81E08 [label=<Y>]
+node00B84DF0 [label=<M>]
+node00B84288 [label=<E>]
+node00B82E00 [label=<N>]
+node00B83968 [label=<T<BR /> <FONT POINT-SIZE="8">SELF-EMPLOYMENT</FONT>> ,color=<red>]
+rootNode -> node00B82050 -> node00B82970 -> node00B844D0 -> node00B84BA8 -> node00B812A0 -> node00B82BB8 -> node00B81730 -> node00B84960 -> node00B81978 -> node00B81BC0 -> node00B81E08 -> node00B84DF0 -> node00B84288 -> node00B82E00 -> node00B83968
+
+//ENCEPHALITIC
+node007E9090 [label=<E>]
+node007E9E40 [label=<N>]
+node007EB2C8 [label=<C>]
+node007EBE30 [label=<E>]
+node007EAE38 [label=<P>]
+node007E9768 [label=<H>]
+node007EC078 [label=<A>]
+node007E8E48 [label=<L>]
+node007EB080 [label=<I>]
+node007E8770 [label=<T>]
+node007E8528 [label=<I>]
+node007E89B8 [label=<C<BR /> <FONT POINT-SIZE="8">ENCEPHALITIC</FONT>> ,color=<red>]
+rootNode -> node007E9090 -> node007E9E40 -> node007EB2C8 -> node007EBE30 -> node007EAE38 -> node007E9768 -> node007EC078 -> node007E8E48 -> node007EB080 -> node007E8770 -> node007E8528 -> node007E89B8
+
+//FACILELY
+node007EA518 [label=<F>]
+node007EBBE8 [label=<A>]
+node007E99B0 [label=<C>]
+node007EB510 [label=<I>]
+node007E9BF8 [label=<L>]
+node007E82E0 [label=<E>]
+node007E8C00 [label=<L>]
+node007EA2D0 [label=<Y<BR /> <FONT POINT-SIZE="8">FACILELY</FONT>> ,color=<red>]
+rootNode -> node007EA518 -> node007EBBE8 -> node007E99B0 -> node007EB510 -> node007E9BF8 -> node007E82E0 -> node007E8C00 -> node007EA2D0
+
+//FUNEREALLY
+node007EA518 [label=<F>]
+node007E92D8 [label=<U>]
+node007EA760 [label=<N>]
+node007EB758 [label=<E>]
+node007E9520 [label=<R>]
+node007EA9A8 [label=<E>]
+node007EB9A0 [label=<A>]
+node007EABF0 [label=<L>]
+node007EA088 [label=<L>]
+node007C5DB0 [label=<Y<BR /> <FONT POINT-SIZE="8">FUNEREALLY</FONT>> ,color=<red>]
+rootNode -> node007EA518 -> node007E92D8 -> node007EA760 -> node007EB758 -> node007E9520 -> node007EA9A8 -> node007EB9A0 -> node007EABF0 -> node007EA088 -> node007C5DB0
+
+//DEVICE
+node007C3B78 [label=<D>]
+node007C6918 [label=<E>]
+node007C3930 [label=<V>]
+node007C4008 [label=<I>]
+node007C4928 [label=<C>]
+node007C3258 [label=<E<BR /> <FONT POINT-SIZE="8">DEVICE</FONT>> ,color=<red>]
+rootNode -> node007C3B78 -> node007C6918 -> node007C3930 -> node007C4008 -> node007C4928 -> node007C3258
+
+//SPIRITUALITY
+node00B82050 [label=<S>]
+node007C6488 [label=<P>]
+node007C36E8 [label=<I>]
+node007C6B60 [label=<R>]
+node007C66D0 [label=<I>]
+node007C5248 [label=<T>]
+node007C34A0 [label=<U>]
+node007C56D8 [label=<A>]
+node007C4B70 [label=<L>]
+node007C5490 [label=<I>]
+node007C6FF0 [label=<T>]
+node007C3DC0 [label=<Y<BR /> <FONT POINT-SIZE="8">SPIRITUALITY</FONT>> ,color=<red>]
+rootNode -> node00B82050 -> node007C6488 -> node007C36E8 -> node007C6B60 -> node007C66D0 -> node007C5248 -> node007C34A0 -> node007C56D8 -> node007C4B70 -> node007C5490 -> node007C6FF0 -> node007C3DC0
+
+//COPULATION
+node007C5FF8 [label=<C>]
+node007C4250 [label=<O>]
+node007C4498 [label=<P>]
+node007C5920 [label=<U>]
+node007C46E0 [label=<L>]
+node007C5B68 [label=<A>]
+node007C4DB8 [label=<T>]
+node007C6240 [label=<I>]
+node007C6DA8 [label=<O>]
+node007C5000 [label=<N<BR /> <FONT POINT-SIZE="8">COPULATION</FONT>> ,color=<red>]
+rootNode -> node007C5FF8 -> node007C4250 -> node007C4498 -> node007C5920 -> node007C46E0 -> node007C5B68 -> node007C4DB8 -> node007C6240 -> node007C6DA8 -> node007C5000
+
+//GONG
+node00B41710 [label=<G>]
+node00B3F048 [label=<O>]
+node00B41958 [label=<N>]
+node00B3E298 [label=<G<BR /> <FONT POINT-SIZE="8">GONG</FONT>> ,color=<red>]
+rootNode -> node00B41710 -> node00B3F048 -> node00B41958 -> node00B3E298
+
+//STORYTELLING
+node00B82050 [label=<S>]
+node00B3EBB8 [label=<T>]
+node00B3F720 [label=<O>]
+node00B3FBB0 [label=<R>]
+node00B3E4E0 [label=<Y>]
+node00B40718 [label=<T>]
+node00B3EE00 [label=<E>]
+node00B3FDF8 [label=<L>]
+node00B41038 [label=<L>]
+node00B41BA0 [label=<I>]
+node00B40BA8 [label=<N>]
+node00B3F4D8 [label=<G<BR /> <FONT POINT-SIZE="8">STORYTELLING</FONT>> ,color=<red>]
+rootNode -> node00B82050 -> node00B3EBB8 -> node00B3F720 -> node00B3FBB0 -> node00B3E4E0 -> node00B40718 -> node00B3EE00 -> node00B3FDF8 -> node00B41038 -> node00B41BA0 -> node00B40BA8 -> node00B3F4D8
+
+//SNAPDRAGON
+node00B82050 [label=<S>]
+node00B40960 [label=<N>]
+node00B40DF0 [label=<A>]
+node00B3F290 [label=<P>]
+node00B3F968 [label=<D>]
+node00B40040 [label=<R>]
+node00B41DE8 [label=<A>]
+node00B40288 [label=<G>]
+node00B3E050 [label=<O>]
+node00B404D0 [label=<N<BR /> <FONT POINT-SIZE="8">SNAPDRAGON</FONT>> ,color=<red>]
+rootNode -> node00B82050 -> node00B40960 -> node00B40DF0 -> node00B3F290 -> node00B3F968 -> node00B40040 -> node00B41DE8 -> node00B40288 -> node00B3E050 -> node00B404D0
+
+//JACKSTRAW
+node00B414C8 [label=<J>]
+node00B41280 [label=<A>]
+node00B3E728 [label=<C>]
+node00B3E970 [label=<K>]
+node00D8C4D0 [label=<S>]
+node00D8AE00 [label=<T>]
+node00D8A970 [label=<R>]
+node00D8B968 [label=<A>]
+node00D8BBB0 [label=<W<BR /> <FONT POINT-SIZE="8">JACKSTRAW</FONT>> ,color=<red>]
+rootNode -> node00B414C8 -> node00B41280 -> node00B3E728 -> node00B3E970 -> node00D8C4D0 -> node00D8AE00 -> node00D8A970 -> node00D8B968 -> node00D8BBB0
+
+//UNDISCOVERED
+node00D8C040 [label=<U>]
+node00D89730 [label=<N>]
+node00D89E08 [label=<D>]
+node00D89978 [label=<I>]
+node00D8C960 [label=<S>]
+node00D8CBA8 [label=<C>]
+node00D8B048 [label=<O>]
+node00D89BC0 [label=<V>]
+node00D8CDF0 [label=<E>]
+node00D8A728 [label=<R>]
+node00D89058 [label=<E>]
+node00D894E8 [label=<D<BR /> <FONT POINT-SIZE="8">UNDISCOVERED</FONT>> ,color=<red>]
+rootNode -> node00D8C040 -> node00D89730 -> node00D89E08 -> node00D89978 -> node00D8C960 -> node00D8CBA8 -> node00D8B048 -> node00D89BC0 -> node00D8CDF0 -> node00D8A728 -> node00D89058 -> node00D894E8
+
+//QUADRIVIUM
+node00D8B290 [label=<Q>]
+node00D8A050 [label=<U>]
+node00D892A0 [label=<A>]
+node00D8A4E0 [label=<D>]
+node00D8A298 [label=<R>]
+node00D8BDF8 [label=<I>]
+node00D8ABB8 [label=<V>]
+node00D8B4D8 [label=<I>]
+node00D8C288 [label=<U>]
+node00D8B720 [label=<M<BR /> <FONT POINT-SIZE="8">QUADRIVIUM</FONT>> ,color=<red>]
+rootNode -> node00D8B290 -> node00D8A050 -> node00D892A0 -> node00D8A4E0 -> node00D8A298 -> node00D8BDF8 -> node00D8ABB8 -> node00D8B4D8 -> node00D8C288 -> node00D8B720
+
+//PICK-ME-UP
+node00D8C718 [label=<P>]
+node007D4550 [label=<I>]
+node007D27A8 [label=<C>]
+node007D40C0 [label=<K>]
+node007D49E0 [label=<->]
+node007D1E88 [label=<M>]
+node007D39E8 [label=<E>]
+node007D2C38 [label=<->]
+node007D1568 [label=<U>]
+node007D3558 [label=<P<BR /> <FONT POINT-SIZE="8">PICK-ME-UP</FONT>> ,color=<red>]
+rootNode -> node00D8C718 -> node007D4550 -> node007D27A8 -> node007D40C0 -> node007D49E0 -> node007D1E88 -> node007D39E8 -> node007D2C38 -> node007D1568 -> node007D3558
+
+//FUCKER
+node007EA518 [label=<F>]
+node007E92D8 [label=<U>]
+node007D29F0 [label=<C>]
+node007D4E70 [label=<K>]
+node007D19F8 [label=<E>]
+node007D3C30 [label=<R<BR /> <FONT POINT-SIZE="8">FUCKER</FONT>> ,color=<red>]
+rootNode -> node007EA518 -> node007E92D8 -> node007D29F0 -> node007D4E70 -> node007D19F8 -> node007D3C30
+
+//INCONTROVERTIBLE
+node007D2E80 [label=<I>]
+node007D5300 [label=<N>]
+node007D2318 [label=<C>]
+node007D4308 [label=<O>]
+node007D1C40 [label=<N>]
+node007D20D0 [label=<T>]
+node007D2560 [label=<R>]
+node007D30C8 [label=<O>]
+node007D3310 [label=<V>]
+node007D37A0 [label=<E>]
+node007D4798 [label=<R>]
+node007D3E78 [label=<T>]
+node007D17B0 [label=<I>]
+node007D4C28 [label=<B>]
+node007D50B8 [label=<L>]
+node011CF038 [label=<E<BR /> <FONT POINT-SIZE="8">INCONTROVERTIBLE</FONT>> ,color=<red>]
+rootNode -> node007D2E80 -> node007D5300 -> node007D2318 -> node007D4308 -> node007D1C40 -> node007D20D0 -> node007D2560 -> node007D30C8 -> node007D3310 -> node007D37A0 -> node007D4798 -> node007D3E78 -> node007D17B0 -> node007D4C28 -> node007D50B8 -> node011CF038
+
+//IMMEDIACIES
+node007D2E80 [label=<I>]
+node011D0DE0 [label=<M>]
+node011D04C0 [label=<M>]
+node011D0708 [label=<E>]
+node011D0950 [label=<D>]
+node011D1028 [label=<I>]
+node011D0278 [label=<A>]
+node011CEBA8 [label=<C>]
+node011D1DD8 [label=<I>]
+node011CE960 [label=<E>]
+node011D1700 [label=<S<BR /> <FONT POINT-SIZE="8">IMMEDIACIES</FONT>> ,color=<red>]
+rootNode -> node007D2E80 -> node011D0DE0 -> node011D04C0 -> node011D0708 -> node011D0950 -> node011D1028 -> node011D0278 -> node011CEBA8 -> node011D1DD8 -> node011CE960 -> node011D1700
+
+//EMACIATED
+node007E9090 [label=<E>]
+node011D0B98 [label=<M>]
+node011D14B8 [label=<A>]
+node011D1270 [label=<C>]
+node011D1948 [label=<I>]
+node011CFBA0 [label=<A>]
+node011D1B90 [label=<T>]
+node011CEDF0 [label=<E>]
+node011CF958 [label=<D<BR /> <FONT POINT-SIZE="8">EMACIATED</FONT>> ,color=<red>]
+rootNode -> node007E9090 -> node011D0B98 -> node011D14B8 -> node011D1270 -> node011D1948 -> node011CFBA0 -> node011D1B90 -> node011CEDF0 -> node011CF958
+
+//PREPONDERANT
+node00D8C718 [label=<P>]
+node011CF280 [label=<R>]
+node011CF4C8 [label=<E>]
+node011CF710 [label=<P>]
+node011CFDE8 [label=<O>]
+node011D0030 [label=<N>]
+node011CD290 [label=<D>]
+node011CBE08 [label=<E>]
+node011CDDF8 [label=<R>]
+node011CB4E8 [label=<A>]
+node011CE040 [label=<N>]
+node011CA2A8 [label=<T<BR /> <FONT POINT-SIZE="8">PREPONDERANT</FONT>> ,color=<red>]
+rootNode -> node00D8C718 -> node011CF280 -> node011CF4C8 -> node011CF710 -> node011CFDE8 -> node011D0030 -> node011CD290 -> node011CBE08 -> node011CDDF8 -> node011CB4E8 -> node011CE040 -> node011CA2A8
+
+//INDELIBLE
+node007D2E80 [label=<I>]
+node007D5300 [label=<N>]
+node011CAE10 [label=<D>]
+node011CC050 [label=<E>]
+node011CC298 [label=<L>]
+node011CB730 [label=<I>]
+node011CD4D8 [label=<B>]
+node011CD048 [label=<L>]
+node011CB978 [label=<E<BR /> <FONT POINT-SIZE="8">INDELIBLE</FONT>> ,color=<red>]
+rootNode -> node007D2E80 -> node007D5300 -> node011CAE10 -> node011CC050 -> node011CC298 -> node011CB730 -> node011CD4D8 -> node011CD048 -> node011CB978
+
+//FRIARY
+node007EA518 [label=<F>]
+node011CA980 [label=<R>]
+node011CE288 [label=<I>]
+node011CD720 [label=<A>]
+node011CA4F0 [label=<R>]
+node011CE4D0 [label=<Y<BR /> <FONT POINT-SIZE="8">FRIARY</FONT>> ,color=<red>]
+rootNode -> node007EA518 -> node011CA980 -> node011CE288 -> node011CD720 -> node011CA4F0 -> node011CE4D0
+
+//INSTRUMENTALLY
+node007D2E80 [label=<I>]
+node007D5300 [label=<N>]
+node011CA738 [label=<S>]
+node011CE718 [label=<T>]
+node011CBBC0 [label=<R>]
+node011CCE00 [label=<U>]
+node011CC4E0 [label=<M>]
+node011CC970 [label=<E>]
+node011CD968 [label=<N>]
+node011CDBB0 [label=<T>]
+node011CC728 [label=<A>]
+node011CB058 [label=<L>]
+node011CCBB8 [label=<L>]
+node011CA060 [label=<Y<BR /> <FONT POINT-SIZE="8">INSTRUMENTALLY</FONT>> ,color=<red>]
+rootNode -> node007D2E80 -> node007D5300 -> node011CA738 -> node011CE718 -> node011CBBC0 -> node011CCE00 -> node011CC4E0 -> node011CC970 -> node011CD968 -> node011CDBB0 -> node011CC728 -> node011CB058 -> node011CCBB8 -> node011CA060
+
+//HOROLOGIC
+node011CABC8 [label=<H>]
+node011CB2A0 [label=<O>]
+node01281718 [label=<R>]
+node01281960 [label=<O>]
+node01282DE8 [label=<L>]
+node01280DF8 [label=<O>]
+node01282710 [label=<G>]
+node01282958 [label=<I>]
+node01282BA0 [label=<C<BR /> <FONT POINT-SIZE="8">HOROLOGIC</FONT>> ,color=<red>]
+rootNode -> node011CABC8 -> node011CB2A0 -> node01281718 -> node01281960 -> node01282DE8 -> node01280DF8 -> node01282710 -> node01282958 -> node01282BA0
+
+//SOLIDNESS
+node00B82050 [label=<S>]
+node01283278 [label=<O>]
+node012814D0 [label=<L>]
+node01283030 [label=<I>]
+node012834C0 [label=<D>]
+node01281040 [label=<N>]
+node01280968 [label=<E>]
+node01283B98 [label=<S>]
+node01283708 [label=<S<BR /> <FONT POINT-SIZE="8">SOLIDNESS</FONT>> ,color=<red>]
+rootNode -> node00B82050 -> node01283278 -> node012814D0 -> node01283030 -> node012834C0 -> node01281040 -> node01280968 -> node01283B98 -> node01283708
+
+}
