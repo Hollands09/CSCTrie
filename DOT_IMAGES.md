@@ -1,13 +1,13 @@
 <h1 align="center">CSCTrie</h1>
 <h2 align="center">Trie dotfile images</h2>
 
-<p align="center">So we made some changes to how our dotfile outputs images.  The leaf nodes are now read and show the entire word along with the leaf character.
-The read.me shows some earlier versions of the dot images.  He the dotfile will be posted along with the image for further clarification.
+<p align="center">So we made some changes to how our dotfile outputs images.  The leaf nodes are now red and show the entire word along with the leaf character.
+The read.me shows some earlier versions of the dot images.  The dotfile will be posted along with the image for further clarification.
  
 </p>
 
-```Graphviz
- strict digraph G {
+```
+	strict digraph G {
 rootNode [label="root"]
 //MINATORY
 node007EC888 [label=<M>]
@@ -140,7 +140,7 @@ rootNode -> node00C0B4C8 -> node00C0A4D0 -> node00C09968 -> node00C09BB0 -> node
 <br>
 
 ```
- strict digraph G {
+	strict digraph G {
 rootNode [label="root"]
 //LIFE-SIZED
 node00B83048 [label=<L>]
@@ -478,7 +478,7 @@ rootNode -> node00B82050 -> node01283278 -> node012814D0 -> node01283030 -> node
 <br>
 
 ```
- strict digraph G {
+	strict digraph G {
 rootNode [label="root"]
 //EXHALE
 node01281288 [label=<E>]
