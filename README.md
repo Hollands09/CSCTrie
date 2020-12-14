@@ -12,7 +12,7 @@ We switched to the obvious choice of using the SDL and had our inputs be strings
 container.  Now in a poor attempt to be more memory conscience we decided to store our nodes in an unordered_map.  This seemed like a good idea because the key-value pairs seemed like the perfect 
 container to store nodes.  For example the key was the char and the value was the pointer to the corresponding Trie node.  This worked as a Trie but using iterators to print a dotfile ended up being a 
 failure.  We could not think of a way to parse multiple key-value pairs using iterators.  The intended plan was <br>
-```node iterator.second[label=”iterator.first”]  ->   next node and so on. ```  <br>
+>node iterator.second[label=”iterator.first”]  ->   next node and so on.  <br>
 Our attempts to do this successfully proved futile when we tried both iteratively and recursively.  So, we rewrote the entire data structure with the same approach but using an array of pointers to 
 Trie nodes (of size 128, ASCII’s defined size) and having the input char be the key to the array (probably the most sensible approach in hindsight).  Now this worked, albeit late.  
 However, it is done, the dotfiles look great and the actual formatting of the dotfiles are neat.   </p>
