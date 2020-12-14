@@ -12,7 +12,7 @@ We switched to the obvious choice of using the SDL and had our inputs be strings
 container.  Now in a poor attempt to be more memory conscience we decided to store our nodes in an unordered_map.  This seemed like a good idea because the key-value pairs seemed like the perfect 
 container to store nodes.  For example the key was the char and the value was the pointer to the corresponding Trie node.  This worked as a Trie but using iterators to print a dotfile ended up being a 
 failure.  We could not think of a way to parse multiple key-value pairs using iterators.  The intended plan was</p>
->node iterator.second[label=”iterator.first”]  ->   next node and so on.
+######node iterator.second[label=”iterator.first”]  ->   next node and so on.
 <p align="center">Our attempts to do this successfully proved futile when we tried both iteratively and recursively.  So, we rewrote the entire data structure with the same approach but using an array of pointers to 
 Trie nodes (of size 128, ASCII’s defined size) and having the input char be the key to the array (probably the most sensible approach in hindsight).  Now this worked, albeit late.  
 However, it is done, the dotfiles look great and the actual formatting of the dotfiles are neat.   </p>
@@ -24,9 +24,9 @@ summation of insertion time against 42000+ inputs.  As a disclaimer the dotfiles
 
 
 >These dotfiles are outdated but just an example of what they did look like in their rudimentary form. see [DOT_IMAGES.md](https://github.com/Hollands09/CSCTrie/blob/main/DOT_IMAGES.md)
->10 input Trie
+####10 input Trie
 <img src="img/10input.png">
->25 input Trie
+####25 input Trie
 <img src="img/25input.png">
->50 input Trie
+####50 input Trie
 <img src="img/50input.png">
