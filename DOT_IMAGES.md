@@ -10,8 +10,7 @@ The read.me shows some earlier versions of the dot images.  He the dotfile will 
 
 <br>
 <br>
-```
-
+```Graphviz
  strict digraph G {
 rootNode [label="root"]
 //MINATORY
