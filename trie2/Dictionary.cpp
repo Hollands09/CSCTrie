@@ -11,7 +11,7 @@ Dictionary::Dictionary() {
 		dictionary.push_back(line);
 	}
 
-	dictionarySize = dictionary.size();
+	dictionarySize = dictionary.size() - 1;
 
 }
 

@@ -20,6 +20,8 @@ public:
 	//search for a specific string in a trie.  Outputs total count and if it exists in the trie or not.
 	bool search(std::string key);
 
+	bool search(std::string key, std::string ret);
+
 	//Prints a string in a Trie into .dot file format.  Uses pointer value as node name so that the letters go to their appropriate children.
 	void printDot(Trie*& trie, std::string key, std::fstream& dotfile);
 

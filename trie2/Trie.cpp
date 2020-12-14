@@ -41,11 +41,15 @@ void Trie::insert(std::string key) {
 	root->endString = true; //is leaf.
 }
 
-bool Trie::search(std::string key) {
+bool Trie::search(std::string key, std::string ret) {
 
 	if (this == nullptr || key.empty()) { //If no word is input or the trie is empty return.
 
-		std::cout << "trie or key is empty\n";
+		if (ret == "true") {
+
+			std::cout << "trie or key is empty\n";
+		
+		}
 
 		return false;
 
@@ -59,7 +63,11 @@ bool Trie::search(std::string key) {
 
 		if (root == nullptr) {
 
-			std::cout << key << " does not exist in trie\n";
+			if (ret == "true") {
+
+				std::cout << key << " does not exist in trie\n";
+
+			}
 
 			return false;
 	
@@ -69,13 +77,16 @@ bool Trie::search(std::string key) {
 
 	if (root->endString) { //Fancy looking way of saying 1 time or 0 or multiple times.  Grammar eeerbody.
 
-		std::cout << key << " exists " << root->count << (root->count == 1 ? " time in trie\n" : " times in trie\n");
-
+		if (ret == "true")
+		
+			std::cout << key << " exists " << root->count << (root->count == 1 ? " time in trie\n" : " times in trie\n");
+		
+		}
+		
 		return true;
 
 	}
 
-}
 
 bool Trie::hasChildren(Trie const* root) {  //specific node to see if it has children.
 
