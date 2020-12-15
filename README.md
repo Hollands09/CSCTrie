@@ -6,7 +6,7 @@ It happened to be where our source code was.
   
 <p align="center">This is probably slightly unorthodox, but we decided to rewrite our entire implementation.  Our original implementations consisted of c-style strings.  
 This proved to be pragmatic when trying input sizes above 20000 or so.  We are not sure why we were getting those results but at the time we decided a different approach would probably be better.  
-We switched to the obvious choice of using the SDL and had our inputs be strings not cstrings.  We used an input file that consisted of 42000+ English language words that we pushed into a Dictionary 
+We switched to the obvious choice of using the STL and had our inputs be strings not cstrings.  We used an input file that consisted of 42000+ English language words that we pushed into a Dictionary 
 container.  Now in a poor attempt to be more memory conscience we decided to store our nodes in an unordered_map.  This seemed like a good idea because the key-value pairs seemed like the perfect 
 container to store nodes.  For example the key was the char and the value was the pointer to the corresponding Trie node.  This worked as a Trie but using iterators to print a dotfile ended up being a 
 failure.  We could not think of a way to parse multiple key-value pairs using iterators.  The intended plan was  
