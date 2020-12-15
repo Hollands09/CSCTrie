@@ -25,7 +25,7 @@ void Trie::insert(std::string key) {
 
 	Trie* root = this;
 
-	for (int i = 0; i < key.size(); i++){
+	for (size_t i = 0; i < key.size(); i++){
 
 		if (root->child[key[i]] == nullptr) { //Trie does not have a node at the letter key[i]
 
@@ -57,7 +57,7 @@ bool Trie::search(std::string key, std::string ret) {
 
 	Trie* root = this;
 
-	for (int i = 0; i < key.size(); i++){ //if root has a nullptr instead of node, return does not exist.
+	for (size_t i = 0; i < key.size(); i++){ //if root has a nullptr instead of node, return does not exist.
 
 		root = root->child[key[i]];
 
@@ -113,11 +113,20 @@ void Trie::labelPrint(Trie*& trie, std::string key, std::fstream& dotfile) {
 
 	Trie* root = trie;
 
-	for (int i = 0; i < key.size(); i++) {  //print each node and a node<pointervalue> [label="key[i]"] i.e node00A96AD8 [label="I"]
+	for (size_t i = 0; i < key.size(); i++) {  //print each node and a node<pointervalue> [label="key[i]"] i.e node00A96AD8 [label="I"]
 
 		root = root->child[key[i]];
 
-		dotfile << "node" << root << " [label=\"" << key[i] << "\"]\n";
+		dotfile << "node" << root << " [label=<" << key[i]; //prints beginning of label
+		
+		if (root->endString) {
+
+			//substring makes sure that if the node gets passed over more than one the appropriate label is created
+			dotfile << "<BR /> <FONT POINT-SIZE=\"8\">" << key.substr(0, i) << "</FONT>>" <<  " ,color=<red>]\n"; //end node shows complete word, node is red and letter
+			
+		}else
+		
+		dotfile << ">]\n"; //if not end of string close label
 
 	}
 
@@ -138,7 +147,7 @@ void Trie::printDot(Trie*& trie, std::string key, std::fstream& dotfile) { //doe
 
 	Trie* root = trie;
 
-	for (int i = 0; i < key.size(); i++) {
+	for (size_t i = 0; i < key.size(); i++) {
 
 		if (i == 0) {  //make sure each node it linked to a root to keep the dotfile clean.
 

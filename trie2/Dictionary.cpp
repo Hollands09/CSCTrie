@@ -11,7 +11,7 @@ Dictionary::Dictionary() {
 		dictionary.push_back(line);
 	}
 
-	dictionarySize = dictionary.size() - 1;
+	dictionarySize = dictionary.size() - 1; // - 1 so max size of a random seed does not go out of bounds
 
 }
 

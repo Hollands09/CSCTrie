@@ -37,7 +37,7 @@ void Timer::setT2() {
 
 }
 
-void Timer::graph(int input) {
+void Timer::graph(double input) {
 
 	if (this->label == "Input Total") {
 
@@ -55,24 +55,24 @@ void Timer::graph(int input) {
 }
 
 
-void Timer::printTimer(std::fstream& file) {
+void Timer::printTimer(std::fstream& file, std::string plotType, std::string point) {
 
-	file << "clc\n clear\n ylabel('Time')\n xlabel('" << this->label << "')\n  grid on\n y = [";
+	file << "hold on\nylabel('Time')\nxlabel('" << this->label << "')\ngrid on\n y = [";
 
-	for (int i = 0; i < this->times.size(); i++) {
+	for (size_t i = 0; i < this->times.size(); i++) {
 
 		file << this->times[i].count() << " ";
 
 	}
 
-	file << "];\n x = [";
+	file << "];\nx = [";
 
-	for (int i = 0; i < this->inputs.size(); i++) {
+	for (size_t i = 0; i < this->inputs.size(); i++) {
 
 		file << this->inputs[i] << " ";
 
 	}
 
-	file << "];\n hold on\n plot(x, y)\n hold off\n pause\n";
+	file << "];\n" << plotType <<"(x, y, '" << point <<"')\n";
 
 }
