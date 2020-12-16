@@ -24,7 +24,10 @@ insertion time and standard deviation of input length and insertion time.  Also,
 summation of insertion time against 42000+ inputs.  As a disclaimer the dotfiles are in .txt format just for ease of copying and pasting into a graphiviz web app.  Changing that to a dotfile
  is as simple as changing the fstream constructor input from “somefilename.txt” to “somefilename.dot”.  
  
- 
+ >50 input Trie that is the last version, notice the nodes that are identified as endStrings are red with the word it represents as a subtext<br/>
+
+
+<img src="img/50inputfinal.png"><br/>
 
 
 >These dotfiles are outdated but just an example of what they did look like in their rudimentary form. see [DOT_IMAGES.md](https://github.com/Hollands09/CSCTrie/blob/main/DOT_IMAGES.md)<br/>
