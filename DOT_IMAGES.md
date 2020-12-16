@@ -1,6 +1,10 @@
 <h1 align="center">CSCTrie</h1>
 <h2 align="center">Trie dotfile images</h2>
 
+
+>Disclaimer : The words inserted into the tries are completley random.  Out apologies for anything slighly unsavoury in the graphs.  We have only briefly looked at the words.   
+
+
 <p align="center">So we made some changes to how our dotfile outputs images.  The leaf nodes are now red and show the entire word along with the leaf character.
 The read.me shows some earlier versions of the dot images.  The dotfile will be posted along with the image for further clarification.
  
