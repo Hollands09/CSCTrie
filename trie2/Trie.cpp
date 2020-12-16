@@ -115,23 +115,21 @@ void Trie::labelPrint(Trie*& trie, std::string key, std::fstream& dotfile) {
 
 	for (size_t i = 0; i < key.size(); i++) {  //print each node and a node<pointervalue> [label="key[i]"] i.e node00A96AD8 [label="I"]
 
+		int index = key.size();
+
 		root = root->child[key[i]];
 
-		dotfile << "node" << root << " [label=<" << key[i]; //prints beginning of label
-		
-		if (root->endString) {
+		if (!root->endString) {
 
-			//substring makes sure that if the node gets passed over more than one the appropriate label is created
-			dotfile << "<BR /> <FONT POINT-SIZE=\"8\">" << key.substr(0, i) << "</FONT>>" <<  " ,color=<red>]\n"; //end node shows complete word, node is red and letter
-			
-		}else
-		
-		dotfile << ">]\n"; //if not end of string close label
+			dotfile << "node" << root << " [label=<" << key[i] << ">]\n"; //if not endString print label
 
+		}
+		else {
+
+			dotfile << "node" << root << " [label=<" << key[i] << "<BR /> <FONT FONT_SIZE=\"8\">" << key.substr(0, (index - (index - i) + 1)) << "</FONT>>, color=<red>]\n"; //if not endString print label
+
+		}
 	}
-
-
-
 }
 
 
