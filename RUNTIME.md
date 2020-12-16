@@ -19,9 +19,9 @@ if that is something that is of interest.
 <br>
 <br>
 
->50 insertions [dotfile](https://github.com/Hollands09/CSCTrie/tree/main/img/50dotfilegraph.txt) , [insert.m](https://github.com/Hollands09/CSCTrie/tree/main/img/50insertTime.m) , [search.m](https://github.com/Hollands09/CSCTrie/tree/main/img/50searchTime.m)
+>50 insertions [dotfile](https://github.com/Hollands09/CSCTrie/tree/main/img/50dotfile.txt) , [insert.m](https://github.com/Hollands09/CSCTrie/tree/main/img/50insertTime.m) , [search.m](https://github.com/Hollands09/CSCTrie/tree/main/img/50searchTime.m)
 
-<img src="img/50insert.png">
+<img src="img/50inpinsert.png">
 <img src="img/50search.png">
 <br>
 <br>
