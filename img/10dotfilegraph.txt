@@ -1,0 +1,119 @@
+ strict digraph G {
+rootNode [label="root"]
+//WITLESSLY
+node00F30FB8 [label=<W>]
+node00F6FCB0 [label=<I>]
+node00F28958 [label=<T>]
+node00F3C648 [label=<L>]
+node00F3C880 [label=<E>]
+node00F3CAB8 [label=<S>]
+node00F3CCF0 [label=<S>]
+node00F3CF28 [label=<L>]
+node00F3D160 [label=<Y<BR /> <FONT FONT_SIZE="8">WITLESSLY</FONT>>, color=<red>]
+rootNode -> node00F30FB8 -> node00F6FCB0 -> node00F28958 -> node00F3C648 -> node00F3C880 -> node00F3CAB8 -> node00F3CCF0 -> node00F3CF28 -> node00F3D160
+
+//RADIOGRAM
+node00F5A980 [label=<R>]
+node00F5ABB8 [label=<A>]
+node00F5ADF0 [label=<D>]
+node00F5B028 [label=<I>]
+node00F5B260 [label=<O>]
+node00F5B498 [label=<G>]
+node01C5C030 [label=<R>]
+node00F34220 [label=<A>]
+node00F33228 [label=<M<BR /> <FONT FONT_SIZE="8">RADIOGRAM</FONT>>, color=<red>]
+rootNode -> node00F5A980 -> node00F5ABB8 -> node00F5ADF0 -> node00F5B028 -> node00F5B260 -> node00F5B498 -> node01C5C030 -> node00F34220 -> node00F33228
+
+//CONVERTIBLE
+node00F34468 [label=<C>]
+node00F33900 [label=<O>]
+node00F33FD8 [label=<N>]
+node00F34B40 [label=<V>]
+node00F34D88 [label=<E>]
+node00F346B0 [label=<R>]
+node00F348F8 [label=<T>]
+node00F33470 [label=<I>]
+node00F33B48 [label=<B>]
+node00F33D90 [label=<L>]
+node00F336B8 [label=<E<BR /> <FONT FONT_SIZE="8">CONVERTIBLE</FONT>>, color=<red>]
+rootNode -> node00F34468 -> node00F33900 -> node00F33FD8 -> node00F34B40 -> node00F34D88 -> node00F346B0 -> node00F348F8 -> node00F33470 -> node00F33B48 -> node00F33D90 -> node00F336B8
+
+//CLINICAL
+node00F34468 [label=<C>]
+node00F701B8 [label=<L>]
+node00F73630 [label=<I>]
+node00F73AC0 [label=<N>]
+node00F72880 [label=<I>]
+node00F721A8 [label=<C>]
+node00F72D10 [label=<A>]
+node00F70890 [label=<L<BR /> <FONT FONT_SIZE="8">CLINICAL</FONT>>, color=<red>]
+rootNode -> node00F34468 -> node00F701B8 -> node00F73630 -> node00F73AC0 -> node00F72880 -> node00F721A8 -> node00F72D10 -> node00F70890
+
+//RECOGNITION
+node00F5A980 [label=<R>]
+node00F72F58 [label=<E>]
+node00F733E8 [label=<C>]
+node00F70400 [label=<O>]
+node00F713F8 [label=<G>]
+node00F731A0 [label=<N>]
+node00F73D08 [label=<I>]
+node00F70648 [label=<T>]
+node00F723F0 [label=<I>]
+node00F71D18 [label=<O>]
+node00F6FF70 [label=<N<BR /> <FONT FONT_SIZE="8">RECOGNITION</FONT>>, color=<red>]
+rootNode -> node00F5A980 -> node00F72F58 -> node00F733E8 -> node00F70400 -> node00F713F8 -> node00F731A0 -> node00F73D08 -> node00F70648 -> node00F723F0 -> node00F71D18 -> node00F6FF70
+
+//OUTSHOUT
+node00F72638 [label=<O>]
+node00F70AD8 [label=<U>]
+node00F73878 [label=<T>]
+node00F72AC8 [label=<S>]
+node00F70D20 [label=<H>]
+node00F70F68 [label=<O>]
+node00F71640 [label=<U>]
+node00F711B0 [label=<T<BR /> <FONT FONT_SIZE="8">OUTSHOUT</FONT>>, color=<red>]
+rootNode -> node00F72638 -> node00F70AD8 -> node00F73878 -> node00F72AC8 -> node00F70D20 -> node00F70F68 -> node00F71640 -> node00F711B0
+
+//DEBAR
+node00F71F60 [label=<D>]
+node00F71AD0 [label=<E>]
+node00F71888 [label=<B>]
+node015F74E0 [label=<A>]
+node015F84D8 [label=<R<BR /> <FONT FONT_SIZE="8">DEBAR</FONT>>, color=<red>]
+rootNode -> node00F71F60 -> node00F71AD0 -> node00F71888 -> node015F74E0 -> node015F84D8
+
+//MONORAIL
+node015F7E00 [label=<M>]
+node015F8290 [label=<O>]
+node015F62A0 [label=<N>]
+node015F6730 [label=<O>]
+node015F8BB0 [label=<R>]
+node015F7050 [label=<A>]
+node015F8720 [label=<I>]
+node015F7BB8 [label=<L<BR /> <FONT FONT_SIZE="8">MONORAIL</FONT>>, color=<red>]
+rootNode -> node015F7E00 -> node015F8290 -> node015F62A0 -> node015F6730 -> node015F8BB0 -> node015F7050 -> node015F8720 -> node015F7BB8
+
+//INTAKE
+node015F9040 [label=<I>]
+node015F6978 [label=<N>]
+node015F8DF8 [label=<T>]
+node015F9288 [label=<A>]
+node015F6BC0 [label=<K>]
+node015F9BA8 [label=<E<BR /> <FONT FONT_SIZE="8">INTAKE</FONT>>, color=<red>]
+rootNode -> node015F9040 -> node015F6978 -> node015F8DF8 -> node015F9288 -> node015F6BC0 -> node015F9BA8
+
+//INTEGRATION
+node015F9040 [label=<I>]
+node015F6978 [label=<N>]
+node015F8DF8 [label=<T>]
+node015F6E08 [label=<E>]
+node015F9DF0 [label=<G>]
+node015F7298 [label=<R>]
+node015F8048 [label=<A>]
+node015F9718 [label=<T>]
+node015F8968 [label=<I>]
+node015F94D0 [label=<O>]
+node015F9960 [label=<N<BR /> <FONT FONT_SIZE="8">INTEGRATION</FONT>>, color=<red>]
+rootNode -> node015F9040 -> node015F6978 -> node015F8DF8 -> node015F6E08 -> node015F9DF0 -> node015F7298 -> node015F8048 -> node015F9718 -> node015F8968 -> node015F94D0 -> node015F9960
+
+}
