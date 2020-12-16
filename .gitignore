@@ -1,2 +1,4 @@
 #Ignore all .pdf files
 *.pdf
+
+*.docx
